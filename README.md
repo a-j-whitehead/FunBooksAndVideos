@@ -9,7 +9,8 @@ I have assumed the that we are required to accept item lines in the format defin
 - Book Club Membership
 
 The below json should result in a PurchaseOrder being successfully processed:
-`{
+```
+{
   "purchaseOrderId": 2,
   "customerId": 1,
   "total": 43.32,
@@ -17,5 +18,6 @@ The below json should result in a PurchaseOrder being successfully processed:
     "Book \"The Girl on the train\"",
     "Book Club Membership"
   ]
-}`
+}
+```
 
